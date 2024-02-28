@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Anastasia-Regular";
+  src: url("./fonts/ANASTAS.TTF");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Century Gothic-Regular";
+  src: url("./fonts/centurygothic.ttf");
+  font-style: normal;
+  font-display: swap;
+}
+.home{
+  color: black;
+  font-size: 2em;
+  font-family: "Century Gothic-Regular";
+  margin-top: 35px;
+}
+img.background {
+  min-height: 100%;
+  min-width: 640px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Зависит от размера изображения */
+  @media screen and (max-width: 640px){
+	img.bg {
+	  left: 50%;
+	  margin-left: -320px;
+	}
+  }
+}
+img.logo {
+  min-height: 76%;
+  min-width: 640px;
+  width: 30%;
+  height: auto;
+  position: fixed;
+  top: 350;
+  left: 0;
+
+
+  @media screen and (max-width: 640px){
+	img.bg {
+	  left: 50%;
+	  margin-left: -320px;
+	}
+  }
+}
+
+.menu-text{
+  color: #F1EEE9;
+  font-size: 2em;
+  font-family: "Century Gothic-Regular";
+  margin-top: 35px;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.justify {
+  text-align: justify;
+}
+
+
+.example1 {
+  display:inline-block;  
+  position:relative;
+
+}
+.example1 span {
+  display:inline-block;
+  position:absolute;
+  top:150px;  
+  left:150px;
+   
+  /* Оформление текста */
+  font-family: Anastasia-Regular;
+        
+  font-weight: lighter;
+  font-size: 500%;
+  color: #264426;
+  
+
+}
+
+.example2 {
+  display:inline-block;  
+  position:relative;
+
+}
+.example2 span {
+  display:inline-block;
+  position:absolute;
+  top:50px;  
+  left:0px;
+   
+  /* Оформление текста */
+  color:#FFF;
+  font-family:Century Gothic-Regular;
+  font-size:20px;
+   
+  /* Фон */
+  background-color:black;
+
+}
+blockquote {
+  padding-left: 14px;
+  border-left: 2px solid #6a2cce;
+
+  color: #6a2cce;
+}

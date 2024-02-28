@@ -78,19 +78,19 @@ img.logo {
 .example1 {
   display:inline-block;  
   position:relative;
-
+  
 }
 .example1 span {
   display:inline-block;
   position:absolute;
-  top:150px;  
-  left:150px;
+  top:140px;  
+  left:155px;
    
   /* Оформление текста */
   font-family: Anastasia-Regular;
         
   font-weight: lighter;
-  font-size: 500%;
+  font-size: 600%;
   color: #264426;
   
 
@@ -99,26 +99,51 @@ img.logo {
 .example2 {
   display:inline-block;  
   position:relative;
+  
 
 }
 .example2 span {
   display:inline-block;
   position:absolute;
-  top:50px;  
-  left:0px;
+  top:500px;  
+  left:-100px;
    
   /* Оформление текста */
   color:#FFF;
   font-family:Century Gothic-Regular;
-  font-size:20px;
+  font-size:45px;
    
   /* Фон */
   background-color:black;
 
 }
 blockquote {
-  padding-left: 14px;
-  border-left: 2px solid #6a2cce;
+  float:right;
+  font-family: Century Gothic-Regular;
+  padding-left: 6px;
+  border-left: 2px solid #264426;
+  font-size: 160%;
+  color: black;
+}
 
-  color: #6a2cce;
+figure {
+  /* задаём рамку и внутренние отступы для контента */
+  
+  padding: 10px;
+  /* минимальная ширина блока, после которой не происходит масштабирование */
+  min-width: 250px;
+}
+
+figcaption {
+  /* тэг идет первым в блоке - подпись будет сверху */
+  /* выравнивание по центру, и изменим фон */
+  text-align: left;
+  background: black;
+  font-family: "Century Gothic-Regular";
+  color: white;
+}
+
+img {
+  /* картинка займет всю доступную ширину блока figure*/
+  width: 100%;
 }

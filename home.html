@@ -6,14 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initia-scale=1.0">
     <link rel="stylesheet" href="h1.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Document</title>
     <style type="text/css"> 
         H1 { 
          font-family: Century Gothic-Regular;
-         padding-left: 450px;
+         padding-left: 470px;
          font-weight: lighter;
-
-         font-size: 150%
+         margin-top: 300px;
+         font-size: 200%
         }
         
         H2 { 
@@ -21,14 +22,30 @@
         
          font-weight: lighter;
          padding-left: 560px;
-         font-size: 285%
+         font-size: 300%
         }
         H3 { 
          font-family: Century Gothic-Regular;
         
          font-weight: lighter;
          padding-left: 1000px;
+         font-size: 285%;
+         margin-top: 0.5em
+        }
+        H6 { 
+         font-family: Century Gothic-Regular;
+         color: #264426;
+         font-weight: bold;
+       
          font-size: 285%
+        }
+        H7 { 
+         font-family: Century Gothic-Regular;
+        
+         font-weight: lighter;
+         text-decoration: underline;
+  
+         font-size: 200%
         }
 
        </style>
@@ -37,15 +54,55 @@
          font-family: Anastasia-Regular;
         
          font-weight: lighter;
-         font-size: 600%;
+         font-size: 650%;
          color: #264426;
          padding-left: 1050px;
+         margin-top: 50px;
+         margin-bottom: 300px;
+        }
+        H5 { 
+         font-family: Anastasia-Regular;
+        
+         font-weight: lighter;
+         font-size: 600%;
+         color: black;
         }
        </style>
 </head>
 <body background="./images/home/back.svg">
+  <div class="plashka">
     
-    <img src="images\home\banner.svg"/>
+    
+
+    <a href="#gallery"  style="margin: 20px 0px 0px 430px" >gallery</a>
+    <a href="#contacts" style="margin: 20px 0px 0px 0px">contact</a>
+    <a href="#about" style="margin: 20px 0px 0px 0px">about</a>
+    <a href="index.html" style="margin: 15px 0px 0px 0px"><img src="images\home\Rüdi_icon.svg" width="30"
+      height="30"></a>
+    <a href="#events" style="margin: 20px 0px 0px 0px">events</a>
+    <a href="#events" style="margin: 20px 0px 0px 0px">museam</a>
+    <a href="#main" style="margin: 20px 0px 0px 0px"><img src="images\home\lupa.svg" width="25"
+      height="25"></a>
+    
+    
+      
+
+  </div>
+  
+  <div class = banner>
+    <img src="images\home\banner_back.svg">
+    <img src="images\home\banner_img1.svg" class = "inner">
+    <img src="images\home\banner_list1.svg" class = "inner2">
+    
+    <span><h5>CONCEPT ART, ALIEN</h5>
+      <h6>1978</h6>
+      <h7>Price on Request</h7>
+      <p><button class="picture__button">LEARN MORE</button></p></span>
+</div> 
+  
+
+    
+    
     <h1> Welcome </h1>
     <h2> This is an online gallery </h2>
     <h3> of </h3>
@@ -56,7 +113,7 @@
     <span>HR GIGER</span>
 </div>    
 <div class = example2>
-    <figure style="float:right; margin: 0px 0px 0px 0px">
+    <figure>
         
         <img src="images\home\ph1.svg">
         <figcaption>biomechanical landscape</figcaption>
@@ -66,19 +123,21 @@
 </div>
 </div>
 <div>
-<figure style="float:left; margin: 0px 0px 0px -19px">
+<figure style="float:left; margin: 0px 0px 0px -20px;         margin-top: 150px;
+margin-bottom: 300px;">
     
     <img src="images\home\ph2.svg">
     <figcaption>biomechanical landscape</figcaption>
   </figure>
 
 
-<blockquote>
+<blockquote style="          margin-top: 250px;
+margin-bottom: 300px;">
   <p>
     He is best known for his work in the biomechanical genre and for his contributions to</p>
 <p>the design of the film Alien in 1979. Giger created a unique style that combines organic</p>
 <p> and mechanical elements, giving his work a terrifyng and dark appearance</p>
-  
+<button class = "readmore">READ MORE . . .</button>
 </blockquote>
 <figure style="float:right; margin: 0px 0px 0px -19px">
     
@@ -87,7 +146,26 @@
   </figure>
 </div>
 
-<p><img src="images\home\vremen.svg", width="100%"></p>
+
+
+
+
+<div class = videoblock>
+  <img src="images\home\brownback.svg">
+  
+
+  
+  <span>
+    <p><img src="images\home\Rüdi_wht.svg" width="100" height="100"></p>
+    <p>- this project was created with...</p>
+    <p><button class = "readmore">READ MORE . . .</button></p>
+    <p><img src="images\home\video.svg" width="500" height="500" ></p>
+   </span>
+    
+</div> 
+<img src="images\home\exibitions_vremen.svg">
+<img src="images\home\spot_vremen.svg">
+<img src="images\home\podval_vremen.svg">
 
 </body>
 </html>

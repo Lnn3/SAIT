@@ -1,3 +1,8 @@
+* {
+  margin:  0;
+  padding: 1;
+ 
+  }
 @font-face {
   font-family: "Anastasia-Regular";
   src: url("./fonts/ANASTAS.TTF");
@@ -78,7 +83,7 @@ img.logo {
 .example1 {
   display:inline-block;  
   position:relative;
-  
+  left:150px;
 }
 .example1 span {
   display:inline-block;
@@ -90,7 +95,7 @@ img.logo {
   font-family: Anastasia-Regular;
         
   font-weight: lighter;
-  font-size: 600%;
+  font-size: 400%;
   color: #264426;
   
 
@@ -99,19 +104,20 @@ img.logo {
 .example2 {
   display:inline-block;  
   position:relative;
-  
 
+  margin: 0px 0px 0px 125px
+   
 }
 .example2 span {
   display:inline-block;
   position:absolute;
-  top:500px;  
-  left:-100px;
+  top:466px;  
+  left:-40px;
    
   /* Оформление текста */
   color:#FFF;
   font-family:Century Gothic-Regular;
-  font-size:45px;
+  font-size:35px;
    
   /* Фон */
   background-color:black;
@@ -121,9 +127,56 @@ img.logo {
 .example3 {
   display:inline-block;  
   position:relative;
-  
+  margin-top: 400px;
+  margin-bottom: 300px;
 
 }
+
+.banner {
+  display:inline-block;  
+  position:sticky;
+  margin: 0px -1060px 0px 0px;
+}
+.inner {
+  position: absolute;
+  top: 260px;
+  left: 500px;
+  width: 450px;
+  height: 450px;
+}
+.inner2 {
+  position: absolute;
+  top: 550px;
+  left: 1450px;
+  width: 100px;
+  height: 100px;
+}
+.picture__button{
+  width: 200px;
+  height: 50px;
+  top:5px;
+  right:5px;
+  z-index:1;
+  background: rgba(255, 255, 255, 0.4);
+  font-family: "Century Gothic-Regular";
+  font-size:20px;
+  font-weight:light;
+  color:#264426;
+}
+
+.banner span {
+  display:inline-block;
+  position:absolute;
+  top:350px;  
+  left:1000px;
+  text-align: center;
+  font-size: 50%;
+  line-height: 45px;
+
+
+
+}
+
 
 blockquote {
   float:right;
@@ -182,4 +235,93 @@ figcaption {
 img {
   /* картинка займет всю доступную ширину блока figure*/
   width: 100%;
+}
+
+
+.plashka {
+  z-index: 2;
+
+  position: fixed;
+ 
+  width: 1921px;
+  height: 90px;
+ 
+  background: url("./images/home/PLASHKA.svg");
+  backdrop-filter: blur(10px);
+  background-repeat: no-repeat;
+
+}
+
+
+.plashka a{
+  display:inline-block;
+ 
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Century Gothic-Regular"
+}
+
+
+
+.plashka a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.plashka a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.readmore{
+  width: 200px;
+  height: 50px;
+  top:50px;
+
+  z-index:1;
+  background: rgba(255, 255, 255, 0.4);
+  font-family: "Century Gothic-Regular";
+  font-size:23px;
+  font-weight:light;
+  color:#264426;
+}
+
+
+
+
+
+.videoblock {
+  display:inline-block;  
+  position:sticky;
+ 
+  margin-top: 250px;
+}
+.video {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 300px;
+}
+
+
+.videoblock span {
+  display:inline-block;
+
+
+  text-align: center;
+  font-size: 100%;
+  line-height: 45px;
+  font-family:"Century Gothic-Regular";
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#FFF
+
 }

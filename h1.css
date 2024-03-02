@@ -1,8 +1,10 @@
 * {
   margin:  0;
   padding: 1;
- 
+  cursor: url(".\images\vst\cursor.svg"), auto;
   }
+
+
 @font-face {
   font-family: "Anastasia-Regular";
   src: url("./fonts/ANASTAS.TTF");
@@ -135,7 +137,7 @@ img.logo {
 .banner {
   display:inline-block;  
   position:sticky;
-  margin: 0px -1060px 0px 0px;
+  width: 100%;
 }
 .inner {
   position: absolute;
@@ -243,11 +245,12 @@ img {
 
   position: fixed;
  
-  width: 1921px;
-  height: 90px;
+  width: 100%;
+  height: 10.5%;
  
-  background: url("./images/home/PLASHKA.svg");
+  background: url("./images/home/PLASHKA.svg");  
   backdrop-filter: blur(10px);
+  background-size: 100%;
   background-repeat: no-repeat;
 
 }
@@ -259,9 +262,9 @@ img {
   float: left;
   color: black;
   text-align: center;
-  padding: 14px 50px;
+  padding: 0.5% 3%;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 106.25%;
   font-family: "Century Gothic-Regular"
 }
 
